@@ -100,7 +100,7 @@ h1 a:hover{
 }
 
 @media (prefers-reduced-motion: reduce) {
-    * {
-        transition: none !important;
+    h1 a {
+        transition: none;
     }
 }
