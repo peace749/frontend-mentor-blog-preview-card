@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Figtree";
+    src: url("./fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+    font-weight: 300 900;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: hsl(47, 88%, 63%); 
+    font-family: "Figtree", sans-serif;
+}
+
+.blog{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 21.62rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 0 hsl(0, 0%, 7%);
+}
+
+.illustration{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    display: block;
+}
+
+.dec{
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.65rem;
+    font-weight: 800;
+    margin: 1rem 0;
+}
+
+h1{
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 1rem 0;
+}
+
+h1 a{
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+h1 a:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.description{
+    color: hsl(0, 0%, 42%);
+    font-size: 1rem;
+    line-height: 1.45;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.date{
+    font-weight: 800;
+    font-size: 1rem;
+    color:  hsl(0, 0%, 42%);
+
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap:  0.625rem;
+}
+
+.author img{
+    width: 25px;
+    height: auto;
+}
+
+.author span{
+    font-size: 0.875rem;
+    font-weight: 800;
+}
