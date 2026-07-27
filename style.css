@@ -28,7 +28,7 @@ body{
 
 .blog{
     max-width: 21.62rem;
-    padding: 1rem;
+    padding: clamp(1rem, 5vw, 1.2rem);
     border-radius: 1rem;
     background-color: var(--white);
     border: 2px solid var(--black);
