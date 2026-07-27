@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: Add your Frontend Mentor solution URL here
-- Live Site URL: Add your GitHub Pages URL here
+- Solution URL: https://www.frontendmentor.io/solutions/blog-preview-card-solution-28y2LFhROY
+- Live Site URL: https://peace749.github.io/frontend-mentor-blog-preview-card/
 
 ## My Process
 
