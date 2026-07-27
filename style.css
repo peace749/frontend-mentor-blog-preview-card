@@ -46,7 +46,8 @@ body{
     display: inline-block;
      background-color: var(--yellow);
     border-radius: 0.25rem;
-    padding: 0.25rem 0.65rem;
+    padding: clamp(0.25rem, 1vw, 0.35rem)
+         clamp(0.65rem, 2vw, 0.75rem);
     font-weight: 800;
     margin: 1rem 0;
 }
